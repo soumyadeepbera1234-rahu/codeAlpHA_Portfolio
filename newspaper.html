@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="newspaper.css"/>
+</head>
+
+<body>
+    <div id="sectionHome">
+        <div class="buttom-section ">
+            <div class="d-flex flex-row justify-content-center">
+                <img src="https://cdn.pixabay.com/photo/2015/10/05/18/10/newspaper-973049_1280.jpg" class="main_page_image" />
+            </div>
+            <div class=" d-flex flex-row justify-content-center ">
+                <div class=" d-flex flex-column justify-content-center ">
+                    <div class=" d-flex flex-column justify-content-center">
+                        <p class="title_paragraph">Good morning with new news on a new day</p>
+                        <div class="shadow-lg p-3 mb-7 bg-success rounded new " onclick="display('sectionEnglish')">ENGLISH</div>
+                    </div>
+                    <div class=" d-flex flex-column justify-content-center">
+                        <p class="title_paragraph">নতুন দিনে নতুন খবরের সুপ্রভাত</p>
+                        <div class="shadow-lg p-3 mb-7 bg-primary rounded new" onclick="display('sectionBengali')">BENGALI</div>
+                    </div>
+                    <div class=" d-flex flex-column justify-content-center">
+                        <p class="title_paragraph">नए दिन पर नई ख़बरों के साथ सुप्रभा</p>
+                        <div class="shadow-lg p-3 mb-7 bg-warning  rounded new" onclick="display('sectionHindi')">HINDI</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionEnglish">
+        <div class="home_page ">
+            <h1 class="top-card">All English Newspaper</h1>
+            <div class="d-flex flex-row justify-content-center">
+                <div class="d-flex flex-column container1">
+                    <img src="https://res.cloudinary.com/dfx0fd63g/image/upload/v1740556269/the_hindu-removebg-preview_ffikpk.png" class="select_image" onclick="display('sectionOne')" />
+                    <p class="text-center">THE HINDU</p>
+                    <a href="https://drive.google.com/file/d/1BpJAiEBomuJeBHDGPG6Haos_WjK1cgMS/view?usp=drivesdk" target="_blank"><button class="btn btn-success button">
+                            << Read>>
+                        </button></a>
+                </div>
+                <div class="d-flex flex-column container1">
+                    <img src="https://res.cloudinary.com/dfx0fd63g/image/upload/v1740556022/tndian_express_qh0nbe.jpg" class="select_image" onclick="display('sectionOne')" />
+                    <p class="text-center">The Indian EXPRESS</p>
+                    <a href="https://drive.google.com/file/d/1BiLCnSWHBvFJ5mX9Sx3b6Hkcoewd2k88/view?usp=drivesdk" target="_blank"><button class="btn btn-success button">
+                            << Read>>
+                        </button></a>
+                </div>
+            </div>
+            <div class="d-flex flex-row justify-content-center">
+                <div class="d-flex flex-column container1">
+                    <img src="https://res.cloudinary.com/dfx0fd63g/image/upload/v1740559938/the_times_of_india_uxdk8x.jpg" class="select_image" onclick="display('sectionOne')" />
+                    <p class="text-center">The Times of Indian</p>
+                    <a href="https://drive.google.com/file/d/10KH3MPHyZK5FdN1b600fiLa_yyoEX_go/view?usp=drivesdk" target="_blank"><button class="btn btn-success button">
+                            << Read>>
+                        </button></a>
+                </div>
+                <div class="d-flex flex-column container1">
+                    <img src="https://res.cloudinary.com/dfx0fd63g/image/upload/v1740560049/the_telegraph_idrwaa.jpg" class="select_image" onclick="display('sectionOne')" />
+                    <p class="text-center">The Telegraph</p>
+                    <a href="https://drive.google.com/file/d/1BoHtdZFj5Hk2N8s4mjDxcha4-zM8Y0rh/view?usp=drivesdk" target="_blank"><button class="btn btn-success button">
+                            << Read>>
+                        </button></a>
+                </div>
+            </div>
+            <div class="d-flex flex-row justify-content-center">
+                <div class="d-flex flex-column container1">
+                    <img src="https://res.cloudinary.com/dfx0fd63g/image/upload/v1740555974/the_statement_g1gbq5.jpg" class="select_image" onclick="display('sectionOne')" />
+                    <p class="text-center">The Statesman</p>
+                    <a href="https://drive.google.com/file/d/1NiSfa6V1APr7tXtXOe0cCPHjNtXau4Bq/view?usp=drivesdk" target="_blank"><button class="btn btn-success button">
+                            << Read>>
+                        </button></a>
+                </div>
+                <div class="d-flex flex-column container1">
+                    <img src="https://res.cloudinary.com/dfx0fd63g/image/upload/v1740584366/hindustan_srxmcy.jpg" class="select_image" onclick="display('sectionOne')" />
+                    <p class="text-center">The Hindusthan Times </p>
+                    <a href="https://drive.google.com/file/d/10KH3MPHyZK5FdN1b600fiLa_yyoEX_go/view?usp=drivesdk" target="_blank"><button class="btn btn-success button">
+                            << Read>>
+                        </button></a>
+                </div>
+            </div>
+            <div class="back_button">
+                <button class="btn btn-warning" onclick="display('sectionHome')">Back</button>
+            </div>
+        </div>
+
+    </div>
+    <div id="sectionBengali">
+        <div class="home_page">
+            <h1 class="top-card">All Bengali Newspaper</h1>
+            <div class="d-flex flex-row justify-content-center">
+                <div class="d-flex flex-column container1">
+                    <img src="https://res.cloudinary.com/dfx0fd63g/image/upload/v1740559520/anando_bazer_clr969.jpg" class="select_image" onclick="display('sectionOne')" />
+                    <p class="text-center">আনন্দবাজার পত্রিকা</p>
+                    <a href="https://drive.google.com/file/d/1Ad3bmrJLRq8tOoFtbGuAAfECyyTd3QsW/view?usp=drivesdk" target="_blank"><button class="btn btn-success button">
+                            << Read>>
+                        </button></a>
+                </div>
+                <div class="d-flex flex-column container1">
+                    <img src="https://res.cloudinary.com/dfx0fd63g/image/upload/v1740559714/borto_man_j0cekj.jpg" class="select_image" onclick="display('sectionOne')" />
+                    <p class="text-center">বর্তমান</p>
+                    <a href="https://www.edailybartoman.net/#" target="_blank"><button class="btn btn-success button">
+                            << Read>>
+                        </button></a>
+                </div>
+            </div>
+            <div class="d-flex flex-row justify-content-center">
+                <div class="d-flex flex-column container1">
+                    <img src="https://res.cloudinary.com/dfx0fd63g/image/upload/v1740559624/proti_din_q1ojz2.jpg" class="select_image" onclick="display('sectionOne')" />
+                    <p class="text-center">প্রতিদিন</p>
+                    <a href="https://epaper.sangbadpratidin.in/" target="_blank"><button class="btn btn-success button">
+                            << Read>>
+                        </button></a>
+                </div>
+                <div class="d-flex flex-column container1">
+                    <img src="https://res.cloudinary.com/dfx0fd63g/image/upload/v1740559572/ai_somoy_ufx3de.jpg" class="select_image" onclick="display('sectionOne')" />
+                    <p class="text-center">এই সময়</p>
+                    <a href="https://drive.google.com/file/d/1dcv50eR8lCv5_niaJ9914TMhxChbpHrJ/view?usp=drivesdk" target="_blank"><button class="btn btn-success button">
+                            << Read>>
+                        </button></a>
+                </div>
+
+            </div>
+            <div class="back_button">
+                <button class="btn btn-warning" onclick="display('sectionHome')">Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionHindi">
+        <p>This page coming soon....</p>
+    </div>
+    <script type="text/javascript" src="https://new-assets.ccbp.in/frontend/content/static-ccbp-ui-kit/static-ccbp-ui-kit.js"></script>
+</body>
+
+</html>
